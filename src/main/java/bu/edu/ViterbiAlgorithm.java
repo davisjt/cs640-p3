@@ -75,7 +75,8 @@ public class ViterbiAlgorithm {
 		System.out.print(p8);
 		System.out.print(" ");
 		for(i = 1; i <= T; i++) {
-			System.out.print(S.get(ss[i]-1));
+			if(p8 != 0.0) 
+				System.out.print(S.get(ss[i]-1));
 			System.out.print(" ");
 		}
 		System.out.print("\n");
