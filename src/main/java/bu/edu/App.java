@@ -14,9 +14,9 @@ public class App {
 			 */
 
 			// TODO: remove
-			operation = "statepath";
+			operation = "recognize";
 			hmmfile = "C:\\sentence.hmm";
-			obsfile = "C:\\example1.obs";
+			obsfile = "C:\\example3.obs";
 			
 			Parser parser = new Parser();
 			HiddenMarkovModel hmm = parser.parseHMMfile(hmmfile);
